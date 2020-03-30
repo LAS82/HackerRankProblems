@@ -17,12 +17,10 @@ namespace SimpleArraySum
                 res += ar[i];
 
             return res;
-
         }
 
         static void Main(string[] args)
         {
-            
 
             int arCount = Convert.ToInt32(Console.ReadLine());
 
