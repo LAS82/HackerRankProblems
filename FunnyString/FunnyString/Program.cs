@@ -11,24 +11,17 @@ namespace FunnyString
     {
         static string funnyString(string s)
         {
-
-            StringBuilder r = new StringBuilder(s.Length);
             int sCalc, rCalc;
 
-            for (int i = s.Length - 1; i >= 0; --i)
+            for (int index = 0; index < s.Length - 1; ++index)
             {
-                int index = s.Length - i - 1;
+                int reverseIndex = s.Length - index - 1;
 
-                r.Append(s[i]);
+                sCalc = Math.Abs(s[index] - s[index + 1]);
+                rCalc = Math.Abs(s[reverseIndex] - s[reverseIndex - 1]);
 
-                if (index > 0)
-                {
-                    sCalc = Math.Abs(s[index] - s[index - 1]);
-                    rCalc = Math.Abs(r[index] - r[index - 1]);
-
-                    if (sCalc != rCalc)
-                        return "Not Funny";
-                }
+                if (sCalc != rCalc)
+                    return "Not Funny";
             }
 
             return "Funny";
