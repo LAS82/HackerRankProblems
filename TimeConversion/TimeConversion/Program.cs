@@ -15,10 +15,21 @@ namespace TimeConversion
         static string timeConversion(string s)
         {
             /*
-             * Write your code here.
-             */
+            * Write your code here.
+            */
 
-            return String.Empty;
+            string[] sSplitted = s.Split(':');
+
+            string amOrPm = sSplitted[sSplitted.Length - 1].Substring(2);
+
+            sSplitted[sSplitted.Length - 1] = sSplitted[sSplitted.Length - 1].Remove(2);
+
+            if (amOrPm == "PM" && sSplitted[0] != "12")
+                sSplitted[0] = (Convert.ToInt32(sSplitted[0]) + 12).ToString();
+            if (amOrPm == "AM" && sSplitted[0] == "12")
+                sSplitted[0] = "00";
+
+            return String.Join(":", sSplitted);
         }
 
         static void Main(string[] args)
