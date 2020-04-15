@@ -14,6 +14,22 @@ namespace LonelyInteger
         // Complete the lonelyinteger function below.
         static int lonelyinteger(int[] a)
         {
+            Dictionary<int, int> values = new Dictionary<int, int>();
+
+            for (int i = 0; i < a.Length; ++i)
+            {
+                if (!values.ContainsKey(a[i]))
+                    values.Add(a[i], 1);
+                else
+                    values[a[i]]++;
+            }
+
+            foreach (KeyValuePair<int, int> value in values)
+            {
+                if (value.Value == 1)
+                    return value.Key;
+            }
+
             return -1;
         }
 
