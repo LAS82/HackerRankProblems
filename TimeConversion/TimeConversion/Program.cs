@@ -26,7 +26,7 @@ namespace TimeConversion
 
             if (amOrPm == "PM" && sSplitted[0] != "12")
                 sSplitted[0] = (Convert.ToInt32(sSplitted[0]) + 12).ToString();
-            if (amOrPm == "AM" && sSplitted[0] == "12")
+            else if (amOrPm == "AM" && sSplitted[0] == "12")
                 sSplitted[0] = "00";
 
             return String.Join(":", sSplitted);
@@ -42,6 +42,7 @@ namespace TimeConversion
 
             //To run on Visual Studio
             Console.WriteLine(result);
+            Console.ReadKey();
 
             /*
             //To run on HackerRank
