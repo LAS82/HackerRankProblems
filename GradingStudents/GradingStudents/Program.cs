@@ -20,7 +20,27 @@ namespace GradingStudents
 
         public static List<int> gradingStudents(List<int> grades)
         {
-            return null;
+            List<int> finalGrades = new List<int>(grades.Count);
+
+            foreach (int grade in grades)
+            {
+                int intGrade = grade;
+                int moduleFive = grade % 5;
+                double roundedGrade = Math.Round((double)grade / 5) * 5;
+
+                if (roundedGrade < 40)
+                {
+                    finalGrades.Add(intGrade);
+                    continue;
+                }
+
+                if (roundedGrade > intGrade && roundedGrade - intGrade < 3)
+                    intGrade = (int)roundedGrade;
+
+                finalGrades.Add(intGrade);
+            }
+
+            return finalGrades;
         }
 
     }
