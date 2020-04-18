@@ -13,7 +13,13 @@ namespace RepeatedString
         static long repeatedString(string s, long n)
         {
 
-            return 0;
+            int letterALength = s.Count(c => c == 'a');
+            int singleStringLength = s.Length;
+            int letterARestLength =
+                s.Substring(0, (int)(n % singleStringLength)).Count(c => c == 'a');
+
+            return ((n / singleStringLength) * letterALength) + letterARestLength;
+
         }
 
         static void Main(string[] args)
