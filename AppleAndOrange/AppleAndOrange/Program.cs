@@ -11,7 +11,11 @@ namespace AppleAndOrange
         // Complete the countApplesAndOranges function below.
         static void countApplesAndOranges(int startingPointHouse, int endPointHouse, int appleTreePosition, int orangeTreePosition, int[] apples, int[] oranges)
         {
-            
+            int applesInMyHouse = returnNumberOfFruitsInside(startingPointHouse, endPointHouse, appleTreePosition, apples);
+            int orangesInMyHouse = returnNumberOfFruitsInside(startingPointHouse, endPointHouse, orangeTreePosition, oranges);
+
+            Console.WriteLine(applesInMyHouse);
+            Console.WriteLine(orangesInMyHouse);
         }
 
         static int returnNumberOfFruitsInside(int startingPointHouse, int endPointHouse, int treePosition, int[] fruitsPosition)
