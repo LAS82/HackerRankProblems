@@ -14,6 +14,22 @@ namespace AppleAndOrange
             
         }
 
+        static int returnNumberOfFruitsInside(int startingPointHouse, int endPointHouse, int treePosition, int[] fruitsPosition)
+        {
+            int position;
+            int insideFruits = 0;
+
+            foreach (int fruitPosition in fruitsPosition)
+            {
+                position = fruitPosition + treePosition;
+
+                if (position >= startingPointHouse && position <= endPointHouse)
+                    insideFruits++;
+            }
+
+            return insideFruits;
+        }
+
         static void Main(string[] args)
         {
             string[] st = Console.ReadLine().Split(' ');
