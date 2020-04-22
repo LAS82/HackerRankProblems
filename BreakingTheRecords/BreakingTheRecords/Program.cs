@@ -13,7 +13,26 @@ namespace BreakingTheRecords
         // Complete the breakingRecords function below.
         static int[] breakingRecords(int[] scores)
         {
-            return null;
+            int highest = scores[0];
+            int lowest = scores[0];
+            int numOfHighest = 0;
+            int numOfLowest = 0;
+
+            for (int i = 1; i < scores.Length; ++i)
+            {
+                if (scores[i] > highest)
+                {
+                    numOfHighest++;
+                    highest = scores[i];
+                }
+                else if (scores[i] < lowest)
+                {
+                    numOfLowest++;
+                    lowest = scores[i];
+                }
+            }
+
+            return new int[2] { numOfHighest, numOfLowest };
         }
 
         static void Main(string[] args)
