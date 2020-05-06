@@ -16,7 +16,19 @@ class Solution
     public static Node insert(Node head, int data)
     {
         //Complete this method
-        return null;
+        Node newNode = new Node(data);
+
+        if (head == null)
+            return newNode;
+
+        Node lastNode = head;
+
+        while (lastNode.next != null)
+            lastNode = lastNode.next;
+
+        lastNode.next = newNode;
+
+        return head;
     }
 
     public static void display(Node head)
