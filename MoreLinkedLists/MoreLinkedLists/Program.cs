@@ -17,7 +17,22 @@ class Solution
     public static Node removeDuplicates(Node head)
     {
         //Write your code here
-        return null;
+        HashSet<int> addedValues = new HashSet<int>();
+        Node active = head;
+        Node newHead = null;
+
+        while (active != null)
+        {
+            if (!addedValues.Contains(active.data))
+            {
+                addedValues.Add(active.data);
+                newHead = insert(newHead, active.data);
+            }
+
+            active = active.next;
+        }
+
+        return newHead;
     }
 
     public static Node insert(Node head, int data)
