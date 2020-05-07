@@ -14,27 +14,21 @@ using System;
 
 class Solution
 {
-
-    public static int findMaximumFrequency(Dictionary<int, int> frequenciesByBirdType)
+    public static int findMinimumBirdTypeWithMaximumFrequency(Dictionary<int, int> frequenciesByBirdType)
     {
-        int maxFrequency = 0;
+        int birdType = 0;
+        int birdValue = 0;
 
-        foreach (KeyValuePair<int, int> freq in frequenciesByBirdType)
-            if (freq.Value > maxFrequency)
-                maxFrequency = freq.Value;
+        for (int i = 5; i > 0; --i)
+        {
+            if (frequenciesByBirdType[i] >= birdValue)
+            {
+                birdType = i;
+                birdValue = frequenciesByBirdType[i];
+            }
+        }        
 
-        return maxFrequency;
-    }
-
-    public static int findMinimumBirdTypeWithMaximumFrequency(Dictionary<int, int> frequenciesByBirdType, int maximumFrequency)
-    {
-        int birdTypeToRet = int.MaxValue;
-
-        foreach (KeyValuePair<int, int> freq in frequenciesByBirdType)
-            if (freq.Value == maximumFrequency && freq.Key < birdTypeToRet)
-                birdTypeToRet = freq.Key;
-
-        return birdTypeToRet;
+        return birdType;
     }
 
     // Complete the migratoryBirds function below.
@@ -42,21 +36,18 @@ class Solution
     {
 
         Dictionary<int, int> frequenciesByBirdType =
-            new Dictionary<int, int>();
+            new Dictionary<int, int>(5);
 
-        int maxFrequency;
+        frequenciesByBirdType.Add(1, 0);
+        frequenciesByBirdType.Add(2, 0);
+        frequenciesByBirdType.Add(3, 0);
+        frequenciesByBirdType.Add(4, 0);
+        frequenciesByBirdType.Add(5, 0);
 
         for (int i = 0; i < arr.Count; ++i)
-        {
-            if (frequenciesByBirdType.ContainsKey(arr[i]))
-                frequenciesByBirdType[arr[i]]++;
-            else
-                frequenciesByBirdType.Add(arr[i], 1);
-        }
+            frequenciesByBirdType[arr[i]]++;
 
-        maxFrequency = findMaximumFrequency(frequenciesByBirdType);
-
-        return findMinimumBirdTypeWithMaximumFrequency(frequenciesByBirdType, maxFrequency);
+        return findMinimumBirdTypeWithMaximumFrequency(frequenciesByBirdType);
 
     }
 
