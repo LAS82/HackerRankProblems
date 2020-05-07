@@ -30,7 +30,7 @@ class Solution
             for (int i = 0; i < arr[currentChapter]; ++i)
             {
                 problemNumberPerPage++;
-                problemNumberPerChapter++;
+                problemNumberPerChapter++; 
 
                 if (problemNumberPerChapter == currentPage)
                     specialProblems++;
