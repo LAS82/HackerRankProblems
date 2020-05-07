@@ -15,11 +15,48 @@ using System;
 class Solution
 {
 
+    public static int findMaximumFrequency(Dictionary<int, int> frequenciesByBirdType)
+    {
+        int maxFrequency = 0;
+
+        foreach (KeyValuePair<int, int> freq in frequenciesByBirdType)
+            if (freq.Value > maxFrequency)
+                maxFrequency = freq.Value;
+
+        return maxFrequency;
+    }
+
+    public static int findMinimumBirdTypeWithMaximumFrequency(Dictionary<int, int> frequenciesByBirdType, int maximumFrequency)
+    {
+        int birdTypeToRet = int.MaxValue;
+
+        foreach (KeyValuePair<int, int> freq in frequenciesByBirdType)
+            if (freq.Value == maximumFrequency && freq.Key < birdTypeToRet)
+                birdTypeToRet = freq.Key;
+
+        return birdTypeToRet;
+    }
+
     // Complete the migratoryBirds function below.
     static int migratoryBirds(List<int> arr)
     {
 
-        return 0;
+        Dictionary<int, int> frequenciesByBirdType =
+            new Dictionary<int, int>();
+
+        int maxFrequency;
+
+        for (int i = 0; i < arr.Count; ++i)
+        {
+            if (frequenciesByBirdType.ContainsKey(arr[i]))
+                frequenciesByBirdType[arr[i]]++;
+            else
+                frequenciesByBirdType.Add(arr[i], 1);
+        }
+
+        maxFrequency = findMaximumFrequency(frequenciesByBirdType);
+
+        return findMinimumBirdTypeWithMaximumFrequency(frequenciesByBirdType, maxFrequency);
 
     }
 
