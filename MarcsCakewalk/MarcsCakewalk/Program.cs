@@ -18,8 +18,13 @@ class Solution
     // Complete the marcsCakewalk function below.
     static long marcsCakewalk(int[] calorie)
     {
-        return 0;
+        long minWalkLen = 0;
+        Array.Sort(calorie);
 
+        for (int i = calorie.Length - 1; i >= 0; --i)
+            minWalkLen += Convert.ToInt64(Math.Pow(2, calorie.Length - i - 1) * calorie[i]);
+
+        return minWalkLen;
     }
 
     static void Main(string[] args)
