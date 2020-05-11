@@ -18,7 +18,20 @@ class Solution
     // Complete the birthday function below.
     static int birthday(List<int> s, int d, int m)
     {
-        return 0;
+        int sumForTest;
+        int res = 0;
+
+        for (int i = 0; (i + m) <= s.Count; ++i)
+        {
+            sumForTest = 0;
+            for (int j = i; j <= (i + m - 1); ++j)
+                sumForTest += s[j];
+
+            if (sumForTest == d)
+                res++;
+        }
+
+        return res;
     }
 
     static void Main(string[] args)
