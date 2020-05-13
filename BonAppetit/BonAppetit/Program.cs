@@ -19,6 +19,21 @@ class Solution
     static void bonAppetit(List<int> bill, int k, int b)
     {
 
+        int correctBill = 0;
+        int overcharge = 0;
+
+        for (int i = 0; i < bill.Count; ++i)
+            correctBill += bill[i];
+
+        correctBill = (correctBill - bill[k]) / 2;
+
+        overcharge = b - correctBill;
+
+        if (overcharge > 0)
+            Console.WriteLine(overcharge);
+        else
+            Console.WriteLine("Bon Appetit");
+
     }
 
     static void Main(string[] args)
