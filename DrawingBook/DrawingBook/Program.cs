@@ -11,7 +11,22 @@ class Solution
      */
     static int pageCount(int n, int p)
     {
-        return 0;
+        //first page
+        if (p == 1)
+            return 0;
+
+        //last or last even page
+        if (p == n || (p % 2) == 0 && p == n - 1)
+            return 0;
+
+        //When the last page is the even page and the search page is the last - 1
+        if ((n % 2) == 0 && p == n - 1)
+            return 1;
+
+        int fromBeginning = (p / 2);
+        int fromEnd = ((n - p) / 2);
+
+        return fromBeginning < fromEnd ? fromBeginning : fromEnd;
     }
 
     static void Main(string[] args)
