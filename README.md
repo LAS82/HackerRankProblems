@@ -4,7 +4,7 @@
 
 ---
 
-My objective with this repository is to practice a wide variety of algorithms problems.
+My objective with this repository is to practice a wide variety of algorithm problems.
 
 The problems are mainly solved with C#.
 
