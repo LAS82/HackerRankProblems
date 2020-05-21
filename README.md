@@ -30,7 +30,3 @@ The problems are mainly solved with C#.
 | Divisible Sum Pairs | [Problem](https://www.hackerrank.com/challenges/divisible-sum-pairs) | [Solution](https://github.com/lealsdev/HackerRankProblems/tree/master/DivisibleSumPairs) |
 | Drawing Book | [Problem](https://www.hackerrank.com/challenges/drawing-book) | [Solution](https://github.com/lealsdev/HackerRankProblems/tree/master/DrawingBook) |
 | Find Digits | [Problem](https://www.hackerrank.com/challenges/find-digits) | [Solution](https://github.com/lealsdev/HackerRankProblems/tree/master/FindDigits) |
-
-
-
-| Name | [Problem](site) | [Solution](site) |
