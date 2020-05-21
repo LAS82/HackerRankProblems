@@ -30,3 +30,12 @@ The problems are mainly solved with C#.
 | Divisible Sum Pairs | [Problem](https://www.hackerrank.com/challenges/divisible-sum-pairs) | [Solution](https://github.com/lealsdev/HackerRankProblems/tree/master/DivisibleSumPairs) |
 | Drawing Book | [Problem](https://www.hackerrank.com/challenges/drawing-book) | [Solution](https://github.com/lealsdev/HackerRankProblems/tree/master/DrawingBook) |
 | Find Digits | [Problem](https://www.hackerrank.com/challenges/find-digits) | [Solution](https://github.com/lealsdev/HackerRankProblems/tree/master/FindDigits) |
+| Funny String | [Problem](https://www.hackerrank.com/challenges/funny-string) | [Solution](https://github.com/lealsdev/HackerRankProblems/tree/master/FunnyString) |
+| Grading Students | [Problem](https://www.hackerrank.com/challenges/grading) | [Solution](https://github.com/lealsdev/HackerRankProblems/tree/master/GradingStudents) |
+| Linked List | [Problem](https://www.hackerrank.com/challenges/30-linked-list/problem) | [Solution](https://github.com/lealsdev/HackerRankProblems/tree/master/LinkedList) |
+| Lisas Workbook | [Problem](https://www.hackerrank.com/challenges/lisa-workbook) | [Solution](https://github.com/lealsdev/HackerRankProblems/tree/master/LisasWorkbook) |
+| Lonely Integer | [Problem](https://www.hackerrank.com/challenges/lonely-integer) | [Solution](https://github.com/lealsdev/HackerRankProblems/tree/master/LonelyInteger) |
+| Marcs Cakewalk | [Problem](https://www.hackerrank.com/challenges/marcs-cakewalk) | [Solution](https://github.com/lealsdev/HackerRankProblems/tree/master/MarcsCakewalk) |
+| Migratory Birds | [Problem](https://www.hackerrank.com/challenges/migratory-birds) | [Solution](https://github.com/lealsdev/HackerRankProblems/tree/master/MigratoryBirds) |
+| Mini-Max Sum | [Problem](https://www.hackerrank.com/challenges/mini-max-sum) | [Solution](https://github.com/lealsdev/HackerRankProblems/tree/master/MiniMaxSum) |
+| More Linked Lists | [Problem](https://www.hackerrank.com/challenges/30-linked-list-deletion) | [Solution](https://github.com/lealsdev/HackerRankProblems/tree/master/MoreLinkedLists) |
