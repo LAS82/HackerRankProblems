@@ -19,7 +19,20 @@ class Solution
     static int maximizingXor(int l, int r)
     {
 
-        return 0;
+        int maxXor = int.MinValue;
+
+        for (int i = l; i <= r; ++i)
+        {
+            for (int j = i; j <= r; ++j)
+            {
+                int calc = i ^ j;
+
+                if (calc > maxXor)
+                    maxXor = calc;
+            }
+        }
+
+        return maxXor;
 
     }
 
