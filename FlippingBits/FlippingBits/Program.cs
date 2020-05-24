@@ -18,7 +18,7 @@ class Solution
     // Complete the flippingBits function below.
     static long flippingBits(long n)
     {
-        return 0;
+        return ~(uint)n;
     }
 
     static void Main(string[] args)
