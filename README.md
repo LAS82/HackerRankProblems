@@ -73,6 +73,7 @@ The problems are mainly solved with C#.
 
 | Name | :scream: | :bulb: |
 | --- | --- | --- |
+| Flipping Bits | [Problem](https://www.hackerrank.com/challenges/flipping-bits) | [Solution](https://github.com/lealsdev/HackerRankProblems/tree/master/FlippingBits) |
 | Lonely Integer | [Problem](https://www.hackerrank.com/challenges/lonely-integer) | [Solution](https://github.com/lealsdev/HackerRankProblems/tree/master/LonelyInteger) |
 | Maximizing XOR | [Problem](https://www.hackerrank.com/challenges/maximizing-xor) | [Solution](https://github.com/lealsdev/HackerRankProblems/tree/master/MaximizingXOR) |
 
