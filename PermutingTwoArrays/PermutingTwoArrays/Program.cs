@@ -12,6 +12,19 @@ using System.Text.RegularExpressions;
 using System.Text;
 using System;
 
+public class ReverseComparer : IComparer<int>
+{
+    public int Compare(int x, int y)
+    {
+        if (x == y)
+            return 0;
+        else if (x < y)
+            return 1;
+        else
+            return -1;
+    }
+}
+
 class Solution
 {
 
@@ -19,7 +32,14 @@ class Solution
     static string twoArrays(int k, int[] A, int[] B)
     {
 
-        return null;
+        Array.Sort(A);
+        Array.Sort(B, new ReverseComparer());
+
+        for (int i = 0; i < A.Length; i++)
+            if (A[i] + B[i] < k)
+                return "NO";
+
+        return "YES";
 
     }
 
