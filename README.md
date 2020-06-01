@@ -66,6 +66,7 @@ The problems are mainly solved with C#.
 | Name | :scream: | :bulb: |
 | --- | --- | --- |
 | Marcs Cakewalk | [Problem](https://www.hackerrank.com/challenges/marcs-cakewalk) | [Solution](https://github.com/lealsdev/HackerRankProblems/tree/master/MarcsCakewalk) |
+| Permuting Two Arrays | [Problem](https://www.hackerrank.com/challenges/two-arrays/) | [Solution](https://github.com/lealsdev/HackerRankProblems/tree/master/PermutingTwoArrays) |
 
 ---
 
