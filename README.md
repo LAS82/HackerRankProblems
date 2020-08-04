@@ -40,6 +40,7 @@ The problems are mainly solved with C#.
 | Cat and Mouse | [Problem](https://www.hackerrank.com/challenges/cats-and-a-mouse) | [Solution](https://github.com/lealsdev/HackerRankProblems/tree/master/Cat%20and%20Mouse) |
 | Counting Valleys | [Problem](https://www.hackerrank.com/challenges/counting-valleys) | [Solution](https://github.com/lealsdev/HackerRankProblems/tree/master/CountingValleys) |
 | Divisible Sum Pairs | [Problem](https://www.hackerrank.com/challenges/divisible-sum-pairs) | [Solution](https://github.com/lealsdev/HackerRankProblems/tree/master/DivisibleSumPairs) |
+| Electronics Shop | [Problem](https://www.hackerrank.com/challenges/electronics-shop) | [Solution](https://github.com/lealsdev/HackerRankProblems/tree/master/ElectronicsShop) |
 | Drawing Book | [Problem](https://www.hackerrank.com/challenges/drawing-book) | [Solution](https://github.com/lealsdev/HackerRankProblems/tree/master/DrawingBook) |
 | Find Digits | [Problem](https://www.hackerrank.com/challenges/find-digits) | [Solution](https://github.com/lealsdev/HackerRankProblems/tree/master/FindDigits) |
 | Grading Students | [Problem](https://www.hackerrank.com/challenges/grading) | [Solution](https://github.com/lealsdev/HackerRankProblems/tree/master/GradingStudents) |
