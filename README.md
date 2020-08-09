@@ -19,6 +19,7 @@ The problems are mainly solved with C#.
 | A Very Big Sum      | [Problem](https://www.hackerrank.com/challenges/a-very-big-sum)   |  [Solution](https://github.com/lealsdev/HackerRankProblems/tree/master/AVeryBigSum) |
 | Birthday Cake Candles | [Problem](https://www.hackerrank.com/challenges/birthday-cake-candles) | [Solution](https://github.com/lealsdev/HackerRankProblems/tree/master/BirthdayCakeCandles) |
 | Compare The Triplets | [Problem](https://www.hackerrank.com/challenges/compare-the-triplets) | [Solution](https://github.com/lealsdev/HackerRankProblems/tree/master/CompareTheTriplets) |
+| Designer PDF Viewer | [Problem](https://www.hackerrank.com/challenges/designer-pdf-viewer) | [Solution](https://github.com/lealsdev/HackerRankProblems/tree/master/DesignerPDFViewer) |
 | Diagonal Difference | [Problem](https://www.hackerrank.com/challenges/diagonal-difference) | [Solution](https://github.com/lealsdev/HackerRankProblems/tree/master/DiagonalDifference) |
 | Mini-Max Sum | [Problem](https://www.hackerrank.com/challenges/mini-max-sum) | [Solution](https://github.com/lealsdev/HackerRankProblems/tree/master/MiniMaxSum) |
 | Plus Minus | [Problem](https://www.hackerrank.com/challenges/plus-minus/problem) | [Solution](https://github.com/lealsdev/HackerRankProblems/tree/master/PlusMinus) |
