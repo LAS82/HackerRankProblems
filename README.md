@@ -41,6 +41,7 @@ The problems are mainly solved with C#.
 | Counting Valleys | [Problem](https://www.hackerrank.com/challenges/counting-valleys) | [Solution](https://github.com/lealsdev/HackerRankProblems/tree/master/CountingValleys) |
 | Divisible Sum Pairs | [Problem](https://www.hackerrank.com/challenges/divisible-sum-pairs) | [Solution](https://github.com/lealsdev/HackerRankProblems/tree/master/DivisibleSumPairs) |
 | Drawing Book | [Problem](https://www.hackerrank.com/challenges/drawing-book) | [Solution](https://github.com/lealsdev/HackerRankProblems/tree/master/DrawingBook) |
+| Electronics Shop | [Problem](https://www.hackerrank.com/challenges/electronics-shop) | [Solution](https://github.com/lealsdev/HackerRankProblems/tree/master/ElectronicsShop) |
 | Find Digits | [Problem](https://www.hackerrank.com/challenges/find-digits) | [Solution](https://github.com/lealsdev/HackerRankProblems/tree/master/FindDigits) |
 | Grading Students | [Problem](https://www.hackerrank.com/challenges/grading) | [Solution](https://github.com/lealsdev/HackerRankProblems/tree/master/GradingStudents) |
 | Lisas Workbook | [Problem](https://www.hackerrank.com/challenges/lisa-workbook) | [Solution](https://github.com/lealsdev/HackerRankProblems/tree/master/LisasWorkbook) |
