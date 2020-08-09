@@ -18,7 +18,15 @@ class Solution
     // Complete the hurdleRace function below.
     static int hurdleRace(int k, int[] height)
     {
-        return 0;
+        int taller = 0;
+
+        for (int i = 0; i < height.Length; ++i)
+            if (taller < height[i])
+                taller = height[i];
+
+        int numberOfPotions = taller - k;
+
+        return numberOfPotions < 0 ? 0 : numberOfPotions;
     }
 
     static void Main(string[] args)
