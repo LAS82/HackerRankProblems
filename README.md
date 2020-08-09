@@ -48,6 +48,7 @@ The problems are mainly solved with C#.
 | Migratory Birds | [Problem](https://www.hackerrank.com/challenges/migratory-birds) | [Solution](https://github.com/lealsdev/HackerRankProblems/tree/master/MigratoryBirds) |
 | Repeated String | [Problem](https://www.hackerrank.com/challenges/repeated-string) | [Solution](https://github.com/lealsdev/HackerRankProblems/tree/master/RepeatedString) |
 | Sock Merchant | [Problem](https://www.hackerrank.com/challenges/sock-merchant) | [Solution](https://github.com/lealsdev/HackerRankProblems/tree/master/SockMerchant) |
+| The Hurdle Race | [Problem](https://www.hackerrank.com/challenges/the-hurdle-race) | [Solution](https://github.com/lealsdev/HackerRankProblems/tree/master/TheHurdleRace) |
 | Utopian Tree | [Problem](https://www.hackerrank.com/challenges/utopian-tree) | [Solution](https://github.com/lealsdev/HackerRankProblems/tree/master/UtopianTree) |
 | Viral Advertising | [Problem](https://www.hackerrank.com/challenges/strange-advertising/problem) | [Solution](https://github.com/lealsdev/HackerRankProblems/tree/master/ViralAdvertising) |
 
