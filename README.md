@@ -39,6 +39,7 @@ The problems are mainly solved with C#.
 | Breaking The Records | [Problem](https://www.hackerrank.com/challenges/breaking-best-and-worst-records) | [Solution](https://github.com/lealsdev/HackerRankProblems/tree/master/BreakingTheRecords) |
 | Cat and Mouse | [Problem](https://www.hackerrank.com/challenges/cats-and-a-mouse) | [Solution](https://github.com/lealsdev/HackerRankProblems/tree/master/Cat%20and%20Mouse) |
 | Counting Valleys | [Problem](https://www.hackerrank.com/challenges/counting-valleys) | [Solution](https://github.com/lealsdev/HackerRankProblems/tree/master/CountingValleys) |
+| Designer PDF Viewer | [Problem](https://www.hackerrank.com/challenges/designer-pdf-viewer) | [Solution](https://github.com/lealsdev/HackerRankProblems/tree/master/DesignerPDFViewer) |
 | Divisible Sum Pairs | [Problem](https://www.hackerrank.com/challenges/divisible-sum-pairs) | [Solution](https://github.com/lealsdev/HackerRankProblems/tree/master/DivisibleSumPairs) |
 | Drawing Book | [Problem](https://www.hackerrank.com/challenges/drawing-book) | [Solution](https://github.com/lealsdev/HackerRankProblems/tree/master/DrawingBook) |
 | Electronics Shop | [Problem](https://www.hackerrank.com/challenges/electronics-shop) | [Solution](https://github.com/lealsdev/HackerRankProblems/tree/master/ElectronicsShop) |
