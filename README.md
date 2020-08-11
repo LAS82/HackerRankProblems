@@ -33,6 +33,7 @@ The problems are mainly solved with C#.
 
 | Name | :scream: | :bulb: |
 | --- | --- | --- |
+|Angry Professor | [Problem](https://www.hackerrank.com/challenges/angry-professor) |  [Solution](https://github.com/lealsdev/HackerRankProblems/tree/master/AngryProfessor) |
 |Apple And Orange | [Problem](https://www.hackerrank.com/challenges/apple-and-orange) |  [Solution](https://github.com/lealsdev/HackerRankProblems/tree/master/AppleAndOrange) |
 | Birthday Chocolate | [Problem](https://www.hackerrank.com/challenges/the-birthday-bar) | [Solution](https://github.com/lealsdev/HackerRankProblems/tree/master/BirthdayChocolate) |
 | Bon Appetit | [Problem](https://www.hackerrank.com/challenges/bon-appetit) | [Solution](https://github.com/lealsdev/HackerRankProblems/tree/master/BonAppetit) |
