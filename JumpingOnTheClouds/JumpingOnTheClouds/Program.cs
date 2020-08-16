@@ -19,6 +19,13 @@ class Solution
     static int jumpingOnClouds(int[] c, int k)
     {
 
+        int energy = 100;
+        int i = 0;
+
+        for (i = 0; i < c.Length; i += k)
+            _ = c[i] == 0 ? energy-- : energy -= 3;
+
+        return energy;
 
     }
 
