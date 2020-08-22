@@ -46,6 +46,7 @@ The problems are mainly solved with C#.
 | Electronics Shop | [Problem](https://www.hackerrank.com/challenges/electronics-shop) | [Solution](https://github.com/lealsdev/HackerRankProblems/tree/master/ElectronicsShop) |
 | Find Digits | [Problem](https://www.hackerrank.com/challenges/find-digits) | [Solution](https://github.com/lealsdev/HackerRankProblems/tree/master/FindDigits) |
 | Grading Students | [Problem](https://www.hackerrank.com/challenges/grading) | [Solution](https://github.com/lealsdev/HackerRankProblems/tree/master/GradingStudents) |
+| Jumping on the Clouds | [Problem](https://www.hackerrank.com/challenges/jumping-on-the-clouds-revisited) | [Solution](https://github.com/lealsdev/HackerRankProblems/tree/master/JumpingOnTheClouds) |
 | Lisas Workbook | [Problem](https://www.hackerrank.com/challenges/lisa-workbook) | [Solution](https://github.com/lealsdev/HackerRankProblems/tree/master/LisasWorkbook) |
 | Migratory Birds | [Problem](https://www.hackerrank.com/challenges/migratory-birds) | [Solution](https://github.com/lealsdev/HackerRankProblems/tree/master/MigratoryBirds) |
 | Repeated String | [Problem](https://www.hackerrank.com/challenges/repeated-string) | [Solution](https://github.com/lealsdev/HackerRankProblems/tree/master/RepeatedString) |
