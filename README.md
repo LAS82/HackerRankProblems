@@ -44,6 +44,7 @@ The problems are mainly solved with C#.
 | Divisible Sum Pairs | [Problem](https://www.hackerrank.com/challenges/divisible-sum-pairs) | [Solution](https://github.com/lealsdev/HackerRankProblems/tree/master/DivisibleSumPairs) |
 | Drawing Book | [Problem](https://www.hackerrank.com/challenges/drawing-book) | [Solution](https://github.com/lealsdev/HackerRankProblems/tree/master/DrawingBook) |
 | Electronics Shop | [Problem](https://www.hackerrank.com/challenges/electronics-shop) | [Solution](https://github.com/lealsdev/HackerRankProblems/tree/master/ElectronicsShop) |
+| Extra Long Factorials | [Problem](https://www.hackerrank.com/challenges/extra-long-factorials) | [Solution](https://github.com/lealsdev/HackerRankProblems/tree/master/ExtraLongFactorials) |
 | Find Digits | [Problem](https://www.hackerrank.com/challenges/find-digits) | [Solution](https://github.com/lealsdev/HackerRankProblems/tree/master/FindDigits) |
 | Grading Students | [Problem](https://www.hackerrank.com/challenges/grading) | [Solution](https://github.com/lealsdev/HackerRankProblems/tree/master/GradingStudents) |
 | Jumping on the Clouds | [Problem](https://www.hackerrank.com/challenges/jumping-on-the-clouds-revisited) | [Solution](https://github.com/lealsdev/HackerRankProblems/tree/master/JumpingOnTheClouds) |
